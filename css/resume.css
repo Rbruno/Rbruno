@@ -1,0 +1,198 @@
+#resume {
+    padding: 10em 0;
+    position: relative;
+}
+
+#resume .bold {
+    top: -53px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-size: 250px;
+    color: #f0f0f0;
+    font-weight: 700;
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+
+.animated.delay-1 {
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms;
+}
+
+.animated.delay-2 {
+    -webkit-animation-delay: 700ms;
+    animation-delay: 700ms;
+}
+
+.animated.delay-3 {
+    -webkit-animation-delay: 800ms;
+    animation-delay: 800ms;
+}
+
+
+.redes {
+    font-size: 52px;
+}
+
+.face {
+    color: #2f55a4;
+}
+
+.face:hover {
+    color: #2f55a4;
+    font-size: 58px;
+    cursor: pointer;
+}
+
+.insta {
+    color: #3f729b;
+}
+
+.insta:hover {
+    color: #3f729b;
+    font-size: 58px;
+    cursor: pointer;
+}
+
+.link {
+    color: #0072b1;
+}
+
+.link:hover {
+    color: #0072b1;
+    font-size: 58px;
+    cursor: pointer;
+}
+
+.twitt {
+    color: #26a7de;
+}
+
+.twitt:hover {
+    color: #26a7de;
+    font-size: 58px;
+    cursor: pointer;
+}
+
+#navi {
+    top: 180px;
+    position: -webkit-sticky;
+    position: sticky;
+    margin: 0;
+    font-family: poppins, Arial, sans-serif;
+}
+
+#navi ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navi li {
+    font-weight: 700;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#navi li a {
+    color: #000;
+}
+
+#navi li a.current {
+    color: #3e64ff;
+    margin-left: 20px;
+    position: relative;
+}
+
+#navi li a.current:after {
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    width: 20px;
+    height: 2px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #3e64ff;
+}
+
+.page {
+    width: 100%;
+    margin-bottom: 7em;
+}
+
+.page .heading {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #3e64ff;
+}
+
+.resume-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 10px;
+}
+
+.resume-wrap .icon {
+    width: 50px;
+    height: 50px;
+    background: #3e64ff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.flaticon-ideas-exp:before {
+    content: url('https://api.iconify.design/fa:suitcase.svg?color=white&height=20&inline=true');
+    vertical-align: -0.49em;
+}
+
+.flaticon-ideas:before {
+    content: url('https://api.iconify.design/fa:graduation-cap.svg?color=white&height=20&inline=true');
+    vertical-align: -0.49em;
+}
+
+.resume-wrap .text {
+    width: calc(100% - 50px);
+}
+
+.resume-wrap .date {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .6);
+    color: #3e64ff;
+}
+
+.resume-wrap h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.resume-wrap .position {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.progress-wrap {
+    width: 100%;
+    margin-bottom: 30px
+}
+
+.progress-wrap h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500
+}
+
+.progress {
+    height: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #e6e6e6;
+    overflow: visible
+}

@@ -1,0 +1,75 @@
+#contact {
+    padding: 10em 0;
+    position: relative;
+}
+
+#contact .bold {
+    top: -53px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-size: 250px;
+    color: #f0f0f0;
+    font-weight: 700;
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+.heading-section {
+    position: relative;
+}
+
+.heading-section h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.box {
+    width: 100%;
+    display: block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.box .icon {
+    width: 100px;
+    height: 100px;
+    background: #3e64ff;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.box .icon span {
+    color: #fff;
+    font-size: 30px;
+}
+
+.icon-map-signs:before {
+    content: url('https://api.iconify.design/mdi:map-marker-outline.svg?color=white&height=42');
+    vertical-align: -0.55em;
+}
+
+.icon-phone2:before {
+    content: url('https://api.iconify.design/fa:whatsapp.svg?color=white&height=42&inline=true');
+    vertical-align: -0.55em;
+}
+
+.icon-paper-plane:before {
+    content: url('https://api.iconify.design/ic:outline-mail.svg?color=white&height=42');
+    vertical-align: -0.55em;
+}
+
+.icon-globe:before {
+    vertical-align: -0.55em;
+    content: url('https://api.iconify.design/uil:linkedin-alt.svg?color=white&height=42');
+}
+
+.box h3 {
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,37 @@
+.ftco-section {
+    padding: 7em 0;
+    position: relative;
+}
+
+.ftco-hireme {
+    background: #3e64ff;
+    z-index: 0;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ftco-hireme .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #3e64ff;
+    opacity: .7;
+}
+
+.ftco-hireme h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.ftco-hireme h2 span {
+    color: #a0f669;
+}
+
+.ftco-hireme p {
+    color: rgba(255, 255, 255, .9);}

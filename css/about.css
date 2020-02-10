@@ -1,0 +1,64 @@
+#about{
+    padding: 10em 0;
+    position: relative;
+}
+
+.img, .blog-img, .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img-about {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+#about .img-about .img {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#about .bold {
+    top: -53px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-size: 250px;
+    color: #f0f0f0;
+    font-weight: 700;
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+.heading-section {
+    position: relative;
+}
+
+.heading-section h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#about ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#about ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+#about ul li span {
+    width: calc(100% - 130px);
+}
+
+#about ul li span:first-child {
+    font-weight: 600;
+    color: #000;
+    width: 130px;
+}
+
